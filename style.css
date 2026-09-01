@@ -54,9 +54,10 @@ ul {
        ========================================= */
 
     /* Main logo pink */
-    --primary: #E6009E;
-    --primary-dark: #B8007D;
+    --primary: #df5624de;
+    --primary-dark:  #d1400ffb;
     --primary-light: #FCE4F4;
+    --hero-image-color: #f3c0ab;
 
     /* Deep purple from "BAKERY & MORE" */
     --dark: #35146B;
@@ -373,24 +374,24 @@ ul {
     width: 450px;
     height: 450px;
     border-radius: 50%;
-    background: var(--primary-light);
+    background: var(   --hero-image-color);
 }
 
 .hero-image {
-    width: 430px;
-    height: 500px;
+    width: 400px;
+    height: 400px       ;
     position: relative;
     z-index: 2;
     overflow: hidden;
-    border-radius: 220px 220px 30px 30px;
-    box-shadow: var(--shadow);
+    border-radius: 50%      ;
+    /* box-shadow: var(--shadow); */
 }
 
 .hero-image img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    transition: transform 0.7s ease;
+    transition: transform 0.007s easssse;
 }
 
 .hero-image:hover img {
